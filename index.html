@@ -1,83 +1,196 @@
-<!DOCTYPE HTML>
 <html>
-	<head>
-		<title>Iulian Grecu - full-stack digital marketer</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<script type="application/ld+json">
-    {
-      "@context": "http://schema.org",
-      "@type": "Person",
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Dublin",
-        "addressCountry": "IE"
-      },
-      "email": "mailto:hello@iuliangrecu.com",
-      "image": "http://iuliangrecu.com/images/iulian-grecu.jpg",
-      "jobTitle": "Digital Marketing Specialist",
-      "name": "Iulian Grecu",
-      "birthPlace": "Craiova, Romania",
-      "gender": "male",
-      "url": "http://www.iuliangrecu.com",
-	    "sameAs" : [ "https://www.facebook.com/idgrecu",
-      "https://www.linkedin.com/in/igrecu/",
-      "https://twitter.com/juliengrecu",
-      "https://www.youtube.com/c/IulianGrecu",
-      "https://plus.google.com/u/0/+IulianGrecu"]
-    }
-    </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-M3RZHFV');</script>
-<!-- End Google Tag Manager -->
-	</head>
-	<body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M3RZHFV"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
-		<!-- Wrapper -->
-			<div id="wrapper">
 
-				<!-- Header -->
-					<header id="header">
-						<span class="avatar"><img src="images/iulian-grecu.jpg" alt="Iulian Grecu" /></span>
-						<h1>Hello, I am <strong>Iulian Grecu</strong>, a full-stack digital marketer.</h1>
-						<h3>You can find and contact me on the following social networks:</h3>
-						<ul class="icons">
-							<li><a href="https://twitter.com/juliengrecu" class="icon style2 fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
-							<li><a href="https://www.facebook.com/idgrecu" class="icon style2 fa-facebook" target="_blank"><span class="label">Facebook</span></a></li>
-							<li><a href="http://pinterest.com/juliengrecu" class="icon style2 fa-pinterest" target="_blank"><span class="label">Pinterest</span></a></li>
-							<li><a href="https://plus.google.com/u/0/+IulianGrecu?rel=author" class="icon style2 fa-google-plus" target="_blank"><span class="label">Pinterest</span></a></li>
-							<li><a href="https://www.linkedin.com/in/igrecu/" class="icon style2 fa-linkedin" target="_blank"><span class="label">LinkedIn</span></a></li>
-							<li><a href="https://www.youtube.com/c/IulianGrecu" class="icon style2 fa-youtube" target="_blank"><span class="label">YouTube</span></a></li>
-							<li><a href="https://blog.iuliangrecu.com/p/articole-media.html" class="icon style2 fa-newspaper-o" target="_blank"><span class="label">Published Articles</span></a></li>
-							<li><a href="javascript:window.location.href = 'mailto:' + ['hello','iuliangrecu.com'].join('@')" class="icon style2 fa-envelope-o"><span class="label">Email</span></a></li>
-						</ul>
-					</header>
+<head>
+	<title>Iulian Grecu - PPC &amp; Analytics Specialist</title>
+	<style>
+		@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500&display=swap');
+		@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+		body {
+		  background-color: #0093E9;
+		  background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+		  font-family: 'Quicksand', sans-serif;
+		  color: white;
+		}
 
-				<!-- Main -->
-					<section id="main">
+		.box {
+		  margin: auto;
+		  padding: 15px;
+		  width: 60%;
+		  border-radius: 0px;
+		  text-align: center;
+		  
+		}
 
-					</section>
+		h1 {
+		  font-size: 50px;
+		  color: white;
+		  font-family: 'Satisfy', cursive;
+	 text-shadow: 2px 2px 4px #000000;
+		}
 
-				<!-- Footer -->
-					<footer id="footer">
-						<p><i>"To improve is to change; to be perfect is to change often." -Winston Churchill</i></p>
-					</footer>
+		h2 {
+		  font-size: 20px;
+		  color: white;
+		 text-shadow: 2px 2px 4px #000000;
+		}
 
-			</div>
+		a {
+		  color: white;
+		}
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.poptrox.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/main.js"></script>
+		.photo {
+		  border-radius: 50%;
+	      padding:1px;
+	      border:2px solid #21CACE;
+		   text-shadow: 2px 2px 4px #000000;
 
-	</body>
+		}
+
+		#photo {
+		  margin: 5px;
+		}
+
+		.modal {
+		  display: none;
+		  position: fixed;
+		  z-index: 1;
+		  left: 0;
+		  top: 0;
+		  width: 100%;
+		  height: 100%;
+		  overflow: auto;
+		  background-color: rgb(0, 0, 0);
+		  background-color: rgba(0, 0, 0, 0.4);
+		}
+
+		.modal-content {
+		  background-color: #fefefe;
+		  color: #191919;
+		  margin: 10% auto;
+		  padding: 20px;
+		  border: 1px solid #888;
+		  width: 80%;
+		}
+
+		.modal-content a {
+		  color: #2671A2;
+		}
+		.modal-content a:hover {
+		  color: white; background: #2671A2;
+		}
+
+		.close {
+		  color: #aaa;
+		  float: right;
+		  font-size: 28px;
+		  font-weight: bold;
+		}
+
+		.close:hover,
+		.close:focus {
+		  color: black;
+		  text-decoration: none;
+		  cursor: pointer;
+		}
+		.label {
+					display: none;
+				}
+				
+	 .style2 {
+						-moz-transition: all 0.2s ease;
+						-webkit-transition: all 0.2s ease;
+						-ms-transition: all 0.2s ease;
+						transition: all 0.2s ease;
+						border-radius: 50%;
+						display: inline-block;
+						padding: 0.5em;
+						border: solid 1px rgba(255, 255, 255, 0.25);
+						background-color: rgba(255, 255, 255, 0.075);
+						 text-shadow: 2px 2px 4px #000000;
+					}
+		</style>
+		
+</head>
+<body>
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+	<div class="box">
+
+	<h1>
+	Iulian Grecu
+	</h1>
+	<h2>
+	PPC &amp; Analytics Specialist
+	</h2>
+
+	<div id="photo">
+	<img src="https://iuliangrecu.pages.dev/images/iulian-grecu.jpg" alt="Iulian Grecu" width="200" class="photo" />
+	</div>
+
+	<div id="socials">
+	<p>
+	<a href="https://www.linkedin.com/in/igrecu/"><i class="fa-brands style2 fa-linkedin fa-2xl"></i><span class="label">LinkedIn</span></a>
+	<a href="https://twitter.com/juliengrecu"><i class="fa-brands style2 fa-twitter-square fa-2xl"></i><span class="label">Twitter</span></a>
+	<a href="#articles" id="open-articles"><i class="fa-solid style2 fa-newspaper fa-2xl"></i><span class="label">Articles</span></a>
+	<a href="javascript:window.location.href = 'mailto:' + ['hello','iuliangrecu.com'].join('@')"><i class="fa-solid style2 fa-at fa-2xl"></i><span class="label">Email</span></a>
+	</p>
+
+	</div>
+
+	</div>
+
+	<div id="myModal" class="modal">
+	  <div class="modal-content">
+	    <span class="close">&times;</span>
+	    <h3 style="font-size: 28px;">
+	    My latest articles:
+	    </h3>
+	<h3><strong>Articles in English:</strong></h3>
+
+	<ul>
+		<li><a href="https://www.wolfgangdigital.com/blog/optimize-for-customers-not-just-for-leads/">Optimize your digital marketing campaigns for customers, not just leads</a> - <strong>Wolfgang Digital</strong>,&nbsp;Apr 2022</li>
+		<li><a href="https://www.wolfgangdigital.com/blog/everything-you-need-to-know-about-cookie-consent/">Everything you need to know about Cookie Consent</a> - <strong>Wolfgang Digital</strong>, Aug 2021</li>
+		<li><a href="https://www.wolfgangdigital.com/blog/ga4-the-future-of-web-tracking-analytics" target="_blank">GA4 - The Future of Web Tracking &amp; Analytics</a>&nbsp;-&nbsp;<strong>Wolfgang Digital</strong>, Jan 2021</li>
+		<li><a href="https://www.wolfgangdigital.com/blog/google-local-services-ads-ireland/" target="_blank">Local Services Ads available in Ireland&nbsp;</a>-&nbsp;<strong>Wolfgang Digital</strong>, Dec 2020</li>
+		<li><a href="https://www.wolfgangdigital.com/blog/lead-generation-tracking/" target="_blank">Lead Generation Tracking: Filling In The Data Gaps</a>&nbsp;-&nbsp;<strong>Wolfgang Digital</strong>, May 2018</li>
+		<li><a href="http://blog.zitec.com/2017/facebook-jobs-new-feature/" target="_blank">Facebook&rsquo;s new feature allows businesses to recruit through Facebook Jobs</a>&nbsp;-&nbsp;<strong>Zitec Blog</strong>, Mar 2017</li>
+	</ul>
+
+	<h3><strong>Articles in Romanian:</strong></h3>
+
+	<ul>
+		<li><a href="https://www.businessmagazin.ro/opinii/opinie-iulian-grecu-specialist-in-marketing-online-zitec-sapte-trenduri-digitale-in-2017-16187789" target="_blank">Şapte trenduri digitale &icirc;n 2017</a>&nbsp;-&nbsp;&nbsp;<strong>BusinessMagazin.ro</strong>, Martie 2017</li>
+		<li><a href="https://www.businessmagazin.ro/opinii/opinie-iulian-grecu-specialist-in-marketing-online-inotec-cinci-lucruri-de-stiut-inainte-de-lansarea-unui-magazin-online-15513411" target="_blank">Cinci lucruri de ştiut &icirc;nainte de lansarea unui magazin online</a>&nbsp;-&nbsp;<strong>BusinessMagazin.ro</strong>, Iulie 2016</li>
+		<li><a href="https://www.wall-street.ro/articol/eCommerce/196879/10-sfaturi-pentru-detinatorii-de-business-uri-e-commerce.html" target="_blank">10 sfaturi pentru detinatorii de business-uri eCommerce</a>&nbsp;-&nbsp;<strong>Wall-Street.ro</strong>, Aprilie 2016</li>
+		<li><a href="https://web.archive.org/web/20151030183605/http://www.web-consulting.ro/articole/cro-optimizarea-ratei-de-conversie/" target="_blank">Tehnici simple pentru Optimizarea Ratei de Conversie</a>&nbsp;-&nbsp;<strong>Web-Consulting.ro</strong>, Ianuarie 2014</li>
+		<li><a href="https://web.archive.org/web/20130614082641/http://www.web-consulting.ro:80/articole/procesul-seo-cercetare-analiza-partea-1/" target="_blank">Procesul SEO - De la Research si Analiza la Tracking si Ranking</a>&nbsp; -&nbsp;<strong>Web-Consulting.ro</strong>, Iulie 2013</li>
+		<li><a href="https://web.archive.org/web/20120115062044/http://www.web-consulting.ro/articole/seo-sem-smo/" target="_blank">SEO vs SEM vs Social Media - Ce metoda de promovare online functioneaza mai bine pentru afacerea dvs?</a>&nbsp;- Jan 2012</li>
+		<li><a href="https://web.archive.org/web/20120122001409/http://www.web-consulting.ro:80/articole/ghid-vanzari-promovare-afacere-online/" target="_blank">Ghid complet: Cum vindem si cum ne promovam afacerea online?</a>&nbsp;- Nov 2011</li>
+	</ul>
+
+
+	  </div>
+
+	</div>
+
+	<script>
+		var modal = document.getElementById("myModal");
+		var btn = document.getElementById("open-articles");
+		var span = document.getElementsByClassName("close")[0];
+		btn.onclick = function() {
+		  modal.style.display = "block";
+		}
+		span.onclick = function() {
+		  modal.style.display = "none";
+		}
+		window.onclick = function(event) {
+		  if (event.target == modal) {
+		    modal.style.display = "none";
+		  }
+		}
+
+		
+	</script>
+</body>
 </html>
