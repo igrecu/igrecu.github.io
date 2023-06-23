@@ -49,7 +49,8 @@
 		}
 
 		a {
-		  color: #37ecba;
+		  color: white;
+		  text-decoration: none;
 		}
 
 		.photo {
@@ -80,6 +81,7 @@ background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);		  color: wh
 		  padding: 20px;
 		  border: 1px solid #888;
 		  width: 80%;
+		  border-radius: 15px;
 		}
 
 		.modal-content a {
@@ -110,10 +112,72 @@ background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);		  color: wh
 						padding-right: 10px;
 						 text-shadow: 2px 2px 4px #000000;
 					}
+					
+					.bg {
+					  animation:slide 3s ease-in-out infinite alternate;
+					  background-image: linear-gradient(-60deg, #6c3 50%, #09f 50%);
+					  bottom:0;
+					  left:-50%;
+					  opacity:.5;
+					  position:fixed;
+					  right:-50%;
+					  top:0;
+					  z-index:-1;
+					}
+
+					.bg2 {
+					  animation-direction:alternate-reverse;
+					  animation-duration:4s;
+					}
+
+					.bg3 {
+					  animation-duration:5s;
+					}
+
+
+
+					@keyframes slide {
+					  0% {
+					    transform:translateX(-25%);
+					  }
+					  100% {
+					    transform:translateX(25%);
+					  }
+					}
+					
+					a.button {
+					  padding: 1.3em 3em;
+					  font-size: 12px;
+					  text-transform: uppercase;
+					  letter-spacing: 2.5px;
+					  font-weight: 500;
+					  color: #000;
+					  background-color: #fff;
+					  border: none;
+					  border-radius: 45px;
+					  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+					  transition: all 0.3s ease 0s;
+					  cursor: pointer;
+					  outline: none;
+					}
+
+					a.button:hover {
+					  background-color: #404b58;
+					  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+					  color: #fff;
+					  transform: translateY(-7px);
+					}
+
+					a.button:active {
+					  transform: translateY(-1px);
+					}
 		</style>
 </head>
 <body>
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	
+<div class="bg"></div>
+<div class="bg bg2"></div>
+<div class="bg bg3"></div>
 
 	<div class="box">
 
@@ -130,18 +194,17 @@ background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);		  color: wh
 	<h3>Crafting PPC &amp; Analytics @<a href="https://www.wolfgangdigital.com?utm_source=iuliangrecu.com&utm_medium=referral" target="_blank" style="color: white;">Wolfgang Digital</a></h3>
 	<div id="socials">
 	<p>
-	<a href="https://www.linkedin.com/in/igrecu/" title="LinkedIn"><i class="fa-brands style2 fa-linkedin fa-2xl"></i><span class="label">LinkedIn</span></a>
-	<a href="https://twitter.com/juliengrecu" title="Twitter"><i class="fa-brands style2 fa-twitter-square fa-2xl"></i><span class="label">Twitter</span></a>
-	<a href="#articles" id="open-articles" title="Articles"><i class="fa-solid style2 fa-newspaper fa-2xl"></i><span class="label">Articles</span></a>
+	<a href="https://www.linkedin.com/in/igrecu/" title="LinkedIn" class="button">LinkedIn</a> &nbsp; 
+	<a href="https://twitter.com/juliengrecu" title="Twitter" class="button">Twitter</a> &nbsp; 
+	<a href="#articles" id="open-articles" title="Articles" class="button">Articles</a>
 	</p>
 	</div>
 	<div id="logos">
-
-		<br />
+		<p>&nbsp;</p>
 				<h3>As seen on:</h3>
-<a href="https://www.wolfgangdigital.com/blog/wolfgang-digital-wins-best-agency-at-the-digital-media-awards-for-the-3rd-year-in-a-row/" target="_blank"><img src="images/wolfgang-digital-logo.svg" width="180" style=" padding: 5px;"/></a> &nbsp; 
+<a href="https://www.wolfgangdigital.com/blog/ga4-the-future-of-web-tracking-analytics/" target="_blank"><img src="images/wolfgang-digital-logo.svg" width="180" style=" padding: 5px;"/></a> &nbsp; 
 <a href="https://www.adworld.ie/2023/06/09/wolfgang-digital-to-host-free-webinar-on-imminent-changes-in-digital-marketing/" target="_blank"><img src="images/adworld-logo.png" width="140" style="filter: brightness(0) invert(1); padding: 5px;" /></a> 
-	<br /><br />
+	&nbsp;
 <a href="https://www.businessmagazin.ro/opinii/opinie-iulian-grecu-specialist-in-marketing-online-zitec-sapte-trenduri-digitale-in-2017-16187789"><img src="images/business-magazin-logo.png" width="150" style="filter: brightness(0) invert(1); padding: 5px;" /></a>
 &nbsp;
 <a href="https://www.wall-street.ro/articol/eCommerce/196879/10-sfaturi-pentru-detinatorii-de-business-uri-e-commerce.html" target="_blank"><img src="images/wall-street-logo.svg" width="140" style="filter: brightness(0) invert(1); padding: 5px;" /></a> <br />
